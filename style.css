@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+ 
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url("30862862c8b1e2f4488a2d161f48be14.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Open Sans";
+}
+form{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width:600px ;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.311);
+    border-radius:12px ;
+}
+h1{
+ color:  #222; 
+ margin-bottom: 20px; 
+ 
+}
+ul{
+    list-style: none;
+    margin-bottom: 20px; 
+    text-align: left;
+}
+ .teamButtons input{
+    border: none;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.242);
+    border-radius: 12px;
+    height: 40px;
+    width: calc(100% - 160px);
+    font-family: "Open Sans";
+
+}
+
+#date input{
+height: 40px;
+font-family: "Open Sans";
+}
+
+#date{
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+}
+.teamButtons{
+    display: flex;
+    font-family: "Open Sans";
+}
+button{
+    width: 80px;
+    font-family: "Open Sans";
+   background-color:white ; 
+   color: rgb(0, 0, 0);
+   border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 10px;
+}
